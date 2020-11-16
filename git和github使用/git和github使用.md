@@ -144,7 +144,23 @@ git push -u origin main
 ## 3 Git常用指令
 
 ```bash
-# 初始化Git仓库 几乎不用
+# 我自己常用的
+git status
+git switch -c dev
+git add .
+git commit -m "I want be dashen"
+git switch main
+git branch
+git merge dev
+git push origin main
+```
+
+
+
+
+
+```bash
+# 初始化Git仓库
 # 在CMD或Git Bash通过cd命令跳转到相应目录(空文件夹)
 git init # 该命令生成.git文件，是隐藏文件
 
